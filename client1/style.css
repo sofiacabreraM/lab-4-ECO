@@ -1,0 +1,29 @@
+body {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 15%;
+    background-color: #f0f0f0; 
+}
+h1 {
+    font-size: 3em; 
+    margin-bottom: 20px;
+}
+#login{
+    color: white;
+    background-color: #1678FF;
+    border: none;
+    border-radius: 5%;
+    width: 200px;
+    height: 60px;
+    font-size: 1.2em; 
+}
+#registerBtn{
+    color: white;
+    background-color: #1678FF;
+    border: none;
+    border-radius: 5%;
+    width: 200px;
+    height: 60px; 
+    font-size: 1.2em; 
+}

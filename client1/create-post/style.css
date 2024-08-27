@@ -1,0 +1,68 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+
+label {
+    font-size: 1em;
+    margin: 10px 0 5px 0;
+    text-align: left;
+    width: 100%;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: none;
+    height: 100px; 
+}
+
+
+#submitPost {
+    color: white;
+    background-color: #1678FF;
+    border: none;
+    border-radius: 5%;
+    width: 100%;
+    height: 50px; 
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+#submitPost:hover {
+    background-color: #125dbf;
+}
